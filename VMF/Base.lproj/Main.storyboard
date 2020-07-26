@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Vintage Mustang Forums-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RootViewController" customModule="VMF" customModuleProvider="target" sceneMemberID="viewController">
@@ -52,7 +52,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="UaJ-GA-EUO"/>
+                    <navigationItem key="navigationItem" title="Vintage Mustang Forums" id="UaJ-GA-EUO"/>
                     <connections>
                         <outlet property="loginBtn" destination="k4d-G3-OHV" id="RQr-el-ams"/>
                         <outlet property="signUpBtn" destination="P99-yB-mcj" id="2T1-l3-VJg"/>
@@ -244,6 +244,21 @@
             </objects>
             <point key="canvasLocation" x="2364" y="105"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="WKx-n8-yg0">
+            <objects>
+                <viewController id="nNp-Ns-QN1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e8d-e9-yqW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="1Ak-og-KCt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xMG-Jb-Lda" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3138" y="106"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="yOd-cD-NQR">
             <objects>
@@ -252,6 +267,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ig9-1X-ZDq">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
