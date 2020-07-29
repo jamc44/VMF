@@ -85,8 +85,9 @@ class LoginViewController: UIViewController {
                     } else {
                         
                         
-                }
-                func transitionToHome() {
+                
+                
+               
                      //When referencing things inside a enclosure use he self key to be more explicit about what is being refernced
                     let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
                                            
@@ -103,3 +104,4 @@ class LoginViewController: UIViewController {
     
 
 }
+

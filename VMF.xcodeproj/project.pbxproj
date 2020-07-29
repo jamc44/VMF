@@ -20,6 +20,7 @@
 		5E6557A224C8AEC500CF7308 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6557A124C8AEC500CF7308 /* signupViewController.swift */; };
 		5E6557A424C8AED600CF7308 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6557A324C8AED600CF7308 /* HomeViewController.swift */; };
 		5E6557A924C8B5C200CF7308 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6557A824C8B5C200CF7308 /* RootViewController.swift */; };
+		5EF97EE624D1ECB20012199B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EE524D1ECB20012199B /* GradientView.swift */; };
 		BAB8A6CD889248BAC1EF4947 /* Pods_VMF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0E60F80DDC73CB2CA3BF36 /* Pods_VMF.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		5E6557A124C8AEC500CF7308 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
 		5E6557A324C8AED600CF7308 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5E6557A824C8B5C200CF7308 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		5EF97EE524D1ECB20012199B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		ABD30F3CD9FEBC35AFF4E527 /* Pods-VMF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMF.release.xcconfig"; path = "Target Support Files/Pods-VMF/Pods-VMF.release.xcconfig"; sourceTree = "<group>"; };
 		E0D67EB58344FC92CE454ED0 /* Pods-VMF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMF.debug.xcconfig"; path = "Target Support Files/Pods-VMF/Pods-VMF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 		5E65579D24C8A9BD00CF7308 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5EF97EE524D1ECB20012199B /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				5E65578B24C8A94600CF7308 /* SceneDelegate.swift in Sources */,
 				5E6557A224C8AEC500CF7308 /* signupViewController.swift in Sources */,
 				5E6557A424C8AED600CF7308 /* HomeViewController.swift in Sources */,
+				5EF97EE624D1ECB20012199B /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
