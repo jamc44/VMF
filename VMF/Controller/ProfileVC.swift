@@ -26,9 +26,11 @@ class ProfileVC: UIViewController {
     }
 
     @IBAction func closeModalBtn(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func logoutBtn(_ sender: UIButton) {
     }
+    
     
 }
