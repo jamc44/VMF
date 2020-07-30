@@ -11,15 +11,27 @@ import UIKit
 class HomeViewController: UIViewController {
 
    
+    @IBOutlet weak var userGalleryBtn: UIButton!
+    @IBOutlet weak var forumsBtn: UIButton!
+    @IBOutlet weak var settingsBtn: UIButton!
     
     
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
-        // Do any additional setup after loading the view.
+        Utilities.buttonRounding(userGalleryBtn)
+        Utilities.buttonRounding(forumsBtn)
+        Utilities.buttonRounding(settingsBtn)
     }
-    
-
+   
+   
+    @IBAction func userLoginXIB(_ sender: UIButton) {
+        //Shows profileXIB page
+        let profile = ProfileVC()
+        profile.modalPresentationStyle = .custom
+        present(profile, animated: true, completion: nil)
+        
+    }
 }

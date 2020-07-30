@@ -7,15 +7,15 @@
 //
 
 import UIKit
-
+@IBDesignable
 class GradientView: UIView {
 
-    @IBInspectable var topColor: UIColor = UIColor.blue {
+    @IBInspectable var topColor: UIColor = UIColor.white {
         didSet {//updates the layout of the view as we change things
             self.setNeedsLayout()
         }
         }
-            @IBInspectable var bottomColor: UIColor = UIColor.green {
+            @IBInspectable var bottomColor: UIColor = UIColor.lightGray {
             didSet {//updates the layout of the view as we change things
                 self.setNeedsLayout()
         }
@@ -29,5 +29,6 @@ class GradientView: UIView {
             gradientLayer.frame = self.bounds
             self.layer.insertSublayer(gradientLayer, at: 0)
         }
+    
     }
 

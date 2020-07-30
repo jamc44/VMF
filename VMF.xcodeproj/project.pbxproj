@@ -21,6 +21,11 @@
 		5E6557A424C8AED600CF7308 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6557A324C8AED600CF7308 /* HomeViewController.swift */; };
 		5E6557A924C8B5C200CF7308 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6557A824C8B5C200CF7308 /* RootViewController.swift */; };
 		5EF97EE624D1ECB20012199B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EE524D1ECB20012199B /* GradientView.swift */; };
+		5EF97EE824D1F24E0012199B /* ChannelVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EE724D1F24E0012199B /* ChannelVCViewController.swift */; };
+		5EF97EEE24D2237C0012199B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EEB24D2237C0012199B /* SWRevealViewController.m */; };
+		5EF97EF024D2355C0012199B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EEF24D2355C0012199B /* ChatViewController.swift */; };
+		5EF97EF324D26D050012199B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EF124D26D050012199B /* ProfileVC.swift */; };
+		5EF97EF424D26D050012199B /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF97EF224D26D050012199B /* ProfileVC.xib */; };
 		BAB8A6CD889248BAC1EF4947 /* Pods_VMF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0E60F80DDC73CB2CA3BF36 /* Pods_VMF.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +47,13 @@
 		5E6557A324C8AED600CF7308 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5E6557A824C8B5C200CF7308 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		5EF97EE524D1ECB20012199B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		5EF97EE724D1F24E0012199B /* ChannelVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVCViewController.swift; sourceTree = "<group>"; };
+		5EF97EEA24D2237A0012199B /* VMF-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VMF-Bridging-Header.h"; sourceTree = "<group>"; };
+		5EF97EEB24D2237C0012199B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SupportingFiles/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
+		5EF97EEC24D2237C0012199B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SupportingFiles/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
+		5EF97EEF24D2355C0012199B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		5EF97EF124D26D050012199B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		5EF97EF224D26D050012199B /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		ABD30F3CD9FEBC35AFF4E527 /* Pods-VMF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMF.release.xcconfig"; path = "Target Support Files/Pods-VMF/Pods-VMF.release.xcconfig"; sourceTree = "<group>"; };
 		E0D67EB58344FC92CE454ED0 /* Pods-VMF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMF.debug.xcconfig"; path = "Target Support Files/Pods-VMF/Pods-VMF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +99,8 @@
 		5E65578724C8A94600CF7308 /* VMF */ = {
 			isa = PBXGroup;
 			children = (
+				5EF97EF524D26D140012199B /* XIB's */,
+				5EF97EE924D223370012199B /* Supporting Files */,
 				5E16E91D24CCDFAF00992005 /* Media */,
 				5E65579E24C8A9C900CF7308 /* Controller */,
 				5E65579D24C8A9BD00CF7308 /* View */,
@@ -126,8 +140,29 @@
 				5E6557A124C8AEC500CF7308 /* signupViewController.swift */,
 				5E6557A324C8AED600CF7308 /* HomeViewController.swift */,
 				5E6557A824C8B5C200CF7308 /* RootViewController.swift */,
+				5EF97EE724D1F24E0012199B /* ChannelVCViewController.swift */,
+				5EF97EEF24D2355C0012199B /* ChatViewController.swift */,
+				5EF97EF124D26D050012199B /* ProfileVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EF97EE924D223370012199B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EF97EEC24D2237C0012199B /* SWRevealViewController.h */,
+				5EF97EEB24D2237C0012199B /* SWRevealViewController.m */,
+				5EF97EEA24D2237A0012199B /* VMF-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EF97EF524D26D140012199B /* XIB's */ = {
+			isa = PBXGroup;
+			children = (
+				5EF97EF224D26D050012199B /* ProfileVC.xib */,
+			);
+			path = "XIB's";
 			sourceTree = "<group>";
 		};
 		AC825F5502D65E0F8617E259 /* Pods */ = {
@@ -181,6 +216,7 @@
 				TargetAttributes = {
 					5E65578424C8A94600CF7308 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -211,6 +247,7 @@
 				5E65579524C8A94700CF7308 /* LaunchScreen.storyboard in Resources */,
 				5E2F9D1B24C942FA00A1D3C4 /* GoogleService-Info.plist in Resources */,
 				5E65579224C8A94700CF7308 /* Assets.xcassets in Resources */,
+				5EF97EF424D26D050012199B /* ProfileVC.xib in Resources */,
 				5E65579024C8A94600CF7308 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +309,11 @@
 				5E65578B24C8A94600CF7308 /* SceneDelegate.swift in Sources */,
 				5E6557A224C8AEC500CF7308 /* signupViewController.swift in Sources */,
 				5E6557A424C8AED600CF7308 /* HomeViewController.swift in Sources */,
+				5EF97EF324D26D050012199B /* ProfileVC.swift in Sources */,
+				5EF97EEE24D2237C0012199B /* SWRevealViewController.m in Sources */,
 				5EF97EE624D1ECB20012199B /* GradientView.swift in Sources */,
+				5EF97EF024D2355C0012199B /* ChatViewController.swift in Sources */,
+				5EF97EE824D1F24E0012199B /* ChannelVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +458,7 @@
 			baseConfigurationReference = E0D67EB58344FC92CE454ED0 /* Pods-VMF.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VMF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -425,6 +467,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mccaughey.VMF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VMF/Supporting Files/VMF-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -435,6 +479,7 @@
 			baseConfigurationReference = ABD30F3CD9FEBC35AFF4E527 /* Pods-VMF.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VMF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,6 +488,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mccaughey.VMF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VMF/Supporting Files/VMF-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
