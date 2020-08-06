@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E01D34924D3333E00EE2FA1 /* Userdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01D34824D3333E00EE2FA1 /* Userdata.swift */; };
 		5E16E91F24CD2E2F00992005 /* Stang.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5E16E91E24CD2E2E00992005 /* Stang.mp4 */; };
 		5E2F9D1724C914ED00A1D3C4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F9D1624C914ED00A1D3C4 /* Utilities.swift */; };
 		5E2F9D1B24C942FA00A1D3C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E2F9D1A24C942FA00A1D3C4 /* GoogleService-Info.plist */; };
+		5E341AA324DB59A1003E7D7E /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 5E341AA224DB59A1003E7D7E /* Notes */; };
 		5E5D5B9324CBC05500BFB6FD /* ConstantsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D5B9224CBC05500BFB6FD /* ConstantsFile.swift */; };
 		5E65578924C8A94600CF7308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E65578824C8A94600CF7308 /* AppDelegate.swift */; };
 		5E65578B24C8A94600CF7308 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E65578A24C8A94600CF7308 /* SceneDelegate.swift */; };
@@ -20,8 +22,9 @@
 		5E6557A224C8AEC500CF7308 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6557A124C8AEC500CF7308 /* signupViewController.swift */; };
 		5E6557A424C8AED600CF7308 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6557A324C8AED600CF7308 /* HomeViewController.swift */; };
 		5E6557A924C8B5C200CF7308 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6557A824C8B5C200CF7308 /* RootViewController.swift */; };
+		5EDCEC2C24DB86C90008D3CB /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDCEC2B24DB86C90008D3CB /* ChannelVC.swift */; };
+		5EE6130624DB2C85005B4670 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE6130524DB2C85005B4670 /* ChannelCell.swift */; };
 		5EF97EE624D1ECB20012199B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EE524D1ECB20012199B /* GradientView.swift */; };
-		5EF97EE824D1F24E0012199B /* ChannelVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EE724D1F24E0012199B /* ChannelVCViewController.swift */; };
 		5EF97EEE24D2237C0012199B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EEB24D2237C0012199B /* SWRevealViewController.m */; };
 		5EF97EF024D2355C0012199B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EEF24D2355C0012199B /* ChatViewController.swift */; };
 		5EF97EF324D26D050012199B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EF124D26D050012199B /* ProfileVC.swift */; };
@@ -31,9 +34,11 @@
 
 /* Begin PBXFileReference section */
 		4D0E60F80DDC73CB2CA3BF36 /* Pods_VMF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VMF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E01D34824D3333E00EE2FA1 /* Userdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Userdata.swift; sourceTree = "<group>"; };
 		5E16E91E24CD2E2E00992005 /* Stang.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stang.mp4; sourceTree = "<group>"; };
 		5E2F9D1624C914ED00A1D3C4 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		5E2F9D1A24C942FA00A1D3C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E341AA224DB59A1003E7D7E /* Notes */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
 		5E5D5B9224CBC05500BFB6FD /* ConstantsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsFile.swift; sourceTree = "<group>"; };
 		5E65578524C8A94600CF7308 /* VMF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VMF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E65578824C8A94600CF7308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,8 +51,9 @@
 		5E6557A124C8AEC500CF7308 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
 		5E6557A324C8AED600CF7308 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5E6557A824C8B5C200CF7308 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		5EDCEC2B24DB86C90008D3CB /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		5EE6130524DB2C85005B4670 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		5EF97EE524D1ECB20012199B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		5EF97EE724D1F24E0012199B /* ChannelVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVCViewController.swift; sourceTree = "<group>"; };
 		5EF97EEA24D2237A0012199B /* VMF-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VMF-Bridging-Header.h"; sourceTree = "<group>"; };
 		5EF97EEB24D2237C0012199B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SupportingFiles/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
 		5EF97EEC24D2237C0012199B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SupportingFiles/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
@@ -121,6 +127,7 @@
 			children = (
 				5E2F9D1624C914ED00A1D3C4 /* Utilities.swift */,
 				5E5D5B9224CBC05500BFB6FD /* ConstantsFile.swift */,
+				5E01D34824D3333E00EE2FA1 /* Userdata.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -129,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				5EF97EE524D1ECB20012199B /* GradientView.swift */,
+				5EE6130524DB2C85005B4670 /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -140,9 +148,9 @@
 				5E6557A124C8AEC500CF7308 /* signupViewController.swift */,
 				5E6557A324C8AED600CF7308 /* HomeViewController.swift */,
 				5E6557A824C8B5C200CF7308 /* RootViewController.swift */,
-				5EF97EE724D1F24E0012199B /* ChannelVCViewController.swift */,
 				5EF97EEF24D2355C0012199B /* ChatViewController.swift */,
 				5EF97EF124D26D050012199B /* ProfileVC.swift */,
+				5EDCEC2B24DB86C90008D3CB /* ChannelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +161,7 @@
 				5EF97EEC24D2237C0012199B /* SWRevealViewController.h */,
 				5EF97EEB24D2237C0012199B /* SWRevealViewController.m */,
 				5EF97EEA24D2237A0012199B /* VMF-Bridging-Header.h */,
+				5E341AA224DB59A1003E7D7E /* Notes */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -248,6 +257,7 @@
 				5E2F9D1B24C942FA00A1D3C4 /* GoogleService-Info.plist in Resources */,
 				5E65579224C8A94700CF7308 /* Assets.xcassets in Resources */,
 				5EF97EF424D26D050012199B /* ProfileVC.xib in Resources */,
+				5E341AA324DB59A1003E7D7E /* Notes in Resources */,
 				5E65579024C8A94600CF7308 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +315,9 @@
 				5E6557A024C8AEB400CF7308 /* LoginViewController.swift in Sources */,
 				5E2F9D1724C914ED00A1D3C4 /* Utilities.swift in Sources */,
 				5E5D5B9324CBC05500BFB6FD /* ConstantsFile.swift in Sources */,
+				5EDCEC2C24DB86C90008D3CB /* ChannelVC.swift in Sources */,
+				5EE6130624DB2C85005B4670 /* ChannelCell.swift in Sources */,
+				5E01D34924D3333E00EE2FA1 /* Userdata.swift in Sources */,
 				5E65578924C8A94600CF7308 /* AppDelegate.swift in Sources */,
 				5E65578B24C8A94600CF7308 /* SceneDelegate.swift in Sources */,
 				5E6557A224C8AEC500CF7308 /* signupViewController.swift in Sources */,
@@ -313,7 +326,6 @@
 				5EF97EEE24D2237C0012199B /* SWRevealViewController.m in Sources */,
 				5EF97EE624D1ECB20012199B /* GradientView.swift in Sources */,
 				5EF97EF024D2355C0012199B /* ChatViewController.swift in Sources */,
-				5EF97EE824D1F24E0012199B /* ChannelVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

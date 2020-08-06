@@ -14,10 +14,13 @@ import FirebaseFirestore
 
 class signupViewController: UIViewController {
 
-    @IBOutlet weak var firstNameTextfield: UITextField!
-    @IBOutlet weak var lastNameTextField: UITextField!
+    @IBOutlet weak var usernameTextfield: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passWordTextField: UITextField!
+    @IBOutlet weak var firstnameTextfield: UITextField!
+    @IBOutlet weak var lastnameTextfield: UITextField!
+    
+   
     
     @IBOutlet weak var signUpBtn: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
@@ -32,11 +35,12 @@ class signupViewController: UIViewController {
         errorLabel.alpha = 0
         
         //These are all for styling the textfields, they are styled off the the utilities functions for each textfield type that we wrote in the model file
-        Utilities.styleTextField(firstNameTextfield)
-        Utilities.styleTextField(lastNameTextField)
+        Utilities.styleTextField(usernameTextfield)
         Utilities.styleTextField(emailTextField)
         Utilities.styleTextField(passWordTextField)
         Utilities.styleFilledButton(signUpBtn)
+        Utilities.styleTextField(firstnameTextfield)
+        Utilities.styleTextField(lastnameTextfield)
     }
 
     
@@ -44,8 +48,9 @@ class signupViewController: UIViewController {
     
     func  validateFields() -> String? {
     //Checking that all fields are filled in
-        if firstNameTextfield.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
-            lastNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+        if usernameTextfield.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            firstnameTextfield.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            lastnameTextfield.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
             emailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
                     ||
             passWordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
@@ -80,10 +85,11 @@ class signupViewController: UIViewController {
         else {//continue to create user/ need to import firebase auth
             
             //create cleaned versions of the data  (trimming the whitespaces)
-            let firstName = firstNameTextfield.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-            let lastName = lastNameTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let username = usernameTextfield.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let password = passWordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let firstname = firstnameTextfield.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let lastname = lastnameTextfield.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             
             
             //Create User
@@ -96,16 +102,21 @@ class signupViewController: UIViewController {
                 else{
                     //If no errors, and Successful user creation please enter first and last name
                     //import Firebase for controller
-                    //line 100 gives you a reference to the firestore object
-                    let db = Firestore.firestore()
+                  
                     
-                    db.collection("users").addDocument(data: ["firstname":firstName,
-                    "lastname":lastName, "uid":result!.user.uid ]) { (error) in
+                    /*Adding data to firestore:
+                     1.Firestore.firestore().collection("users") - adds the new signed up users collection in firebase
+                     2. .addDocument(data: [USERNAME : username, FIRST_NAME : firstname, LAST_NAME:lastname, EMAIL :email, PASSWORD : password, - the fields that it adds to firebase (KEY/VALUE pairs in the dictionary)
+ 
+                     */ 
+                    Firestore.firestore().collection(USERS_REF).addDocument(data: [USERNAME : username, FIRST_NAME : firstname, LAST_NAME:lastname, EMAIL :email, PASSWORD : password,
+                    "uid":result!.user.uid ]) { (error) in
                     if error != nil {
                 //show error message
                 showError("User data couldn't be processed")
                                                                 }
                     }
+                
                 }
             }
                    

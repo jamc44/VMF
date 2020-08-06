@@ -1,0 +1,20 @@
+To get this segue:
+1. Pulled a right click from ChannelVC to newloginVC
+2. Used Show
+3. Created IBoutlet fro loginBtn because An outlet is a property of an object that references another object
+4. Clicked on the segue arrow connecting the VC's and in Identifier put a string "toLogin"
+5. Created a utilities file to store the constant: "let TO_LOGIN = "toLogin""
+6. Made IBAction for button and performseque placing the constant as the identifier and the sender as nil
+
+
+
+
+
+
+
+/*CREATING THE UNWIND SEGUE FOR CLOSE BUTTON
+1. First thing is you need to create a IBaction in the VC that you want to go back to.......so created IBAction func preparefrounwind in ChannelVC
+2.Go back to UI and right cliick from view controller top tab button on left to exit controller on right and pick the unwinfd segue action
+3. Go to constants create a new variable. "let UNWIND = "unwindToChannel""
+4.Make sure to go to unwindsegue in channels tab and connect the identifier to the variable string you just made
+5. Go to Create account VC and code the button as a action function to unwind using "performsegue()"
