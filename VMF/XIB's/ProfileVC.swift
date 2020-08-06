@@ -2,7 +2,7 @@
 //  ProfileVC.swift
 //  VMF
 //
-//  Created by Jimmy McCaughey on 7/29/20.
+//  Created by Jimmy McCaughey on 8/5/20.
 //  Copyright © 2020 Jimmy McCaughey. All rights reserved.
 //
 
@@ -21,12 +21,12 @@ class ProfileVC: UIViewController {
     @IBOutlet weak var fullName: UILabel!
     @IBOutlet weak var email: UILabel!
     
-    @IBOutlet weak var userImage: UIImageView!
+ 
     
     
     
     
-    @IBOutlet private weak var bgView: UIView!
+ 
     
     //variables
     private var Userdatas = [Userdata]() //Holds the dictionary data for users
@@ -76,6 +76,7 @@ class ProfileVC: UIViewController {
     
     
     
+    
     @IBAction func logoutBtn(_ sender: UIButton) {
            let firebaseAuth = Auth.auth()
            do {
@@ -94,7 +95,9 @@ class ProfileVC: UIViewController {
          
              }
     
+
         
+
 
 
 

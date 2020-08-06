@@ -37,12 +37,9 @@ class HomeViewController: UIViewController {
         let profile = ProfileVC()
         profile.modalPresentationStyle = .custom
         present(profile, animated: true, completion: nil)
-        
+       
     }
    
-    @IBAction func forumBtnSegue(_ sender: Any) {
-        performSegue(withIdentifier: TO_FORUMS, sender: nil)
-    }
     
 }
 

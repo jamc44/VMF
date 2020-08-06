@@ -12,6 +12,8 @@
 		5E2F9D1724C914ED00A1D3C4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F9D1624C914ED00A1D3C4 /* Utilities.swift */; };
 		5E2F9D1B24C942FA00A1D3C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E2F9D1A24C942FA00A1D3C4 /* GoogleService-Info.plist */; };
 		5E341AA324DB59A1003E7D7E /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 5E341AA224DB59A1003E7D7E /* Notes */; };
+		5E42D3A024DBAA29000B0854 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E42D39E24DBAA29000B0854 /* ProfileVC.swift */; };
+		5E42D3A124DBAA29000B0854 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E42D39F24DBAA29000B0854 /* ProfileVC.xib */; };
 		5E5D5B9324CBC05500BFB6FD /* ConstantsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D5B9224CBC05500BFB6FD /* ConstantsFile.swift */; };
 		5E65578924C8A94600CF7308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E65578824C8A94600CF7308 /* AppDelegate.swift */; };
 		5E65578B24C8A94600CF7308 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E65578A24C8A94600CF7308 /* SceneDelegate.swift */; };
@@ -27,8 +29,6 @@
 		5EF97EE624D1ECB20012199B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EE524D1ECB20012199B /* GradientView.swift */; };
 		5EF97EEE24D2237C0012199B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EEB24D2237C0012199B /* SWRevealViewController.m */; };
 		5EF97EF024D2355C0012199B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EEF24D2355C0012199B /* ChatViewController.swift */; };
-		5EF97EF324D26D050012199B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF97EF124D26D050012199B /* ProfileVC.swift */; };
-		5EF97EF424D26D050012199B /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF97EF224D26D050012199B /* ProfileVC.xib */; };
 		BAB8A6CD889248BAC1EF4947 /* Pods_VMF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0E60F80DDC73CB2CA3BF36 /* Pods_VMF.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,8 @@
 		5E2F9D1624C914ED00A1D3C4 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		5E2F9D1A24C942FA00A1D3C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5E341AA224DB59A1003E7D7E /* Notes */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		5E42D39E24DBAA29000B0854 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		5E42D39F24DBAA29000B0854 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		5E5D5B9224CBC05500BFB6FD /* ConstantsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsFile.swift; sourceTree = "<group>"; };
 		5E65578524C8A94600CF7308 /* VMF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VMF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E65578824C8A94600CF7308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,8 +60,6 @@
 		5EF97EEB24D2237C0012199B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SupportingFiles/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
 		5EF97EEC24D2237C0012199B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SupportingFiles/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
 		5EF97EEF24D2355C0012199B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		5EF97EF124D26D050012199B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
-		5EF97EF224D26D050012199B /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		ABD30F3CD9FEBC35AFF4E527 /* Pods-VMF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMF.release.xcconfig"; path = "Target Support Files/Pods-VMF/Pods-VMF.release.xcconfig"; sourceTree = "<group>"; };
 		E0D67EB58344FC92CE454ED0 /* Pods-VMF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMF.debug.xcconfig"; path = "Target Support Files/Pods-VMF/Pods-VMF.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,7 +149,6 @@
 				5E6557A324C8AED600CF7308 /* HomeViewController.swift */,
 				5E6557A824C8B5C200CF7308 /* RootViewController.swift */,
 				5EF97EEF24D2355C0012199B /* ChatViewController.swift */,
-				5EF97EF124D26D050012199B /* ProfileVC.swift */,
 				5EDCEC2B24DB86C90008D3CB /* ChannelVC.swift */,
 			);
 			path = Controller;
@@ -169,7 +168,8 @@
 		5EF97EF524D26D140012199B /* XIB's */ = {
 			isa = PBXGroup;
 			children = (
-				5EF97EF224D26D050012199B /* ProfileVC.xib */,
+				5E42D39E24DBAA29000B0854 /* ProfileVC.swift */,
+				5E42D39F24DBAA29000B0854 /* ProfileVC.xib */,
 			);
 			path = "XIB's";
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 				5E65579524C8A94700CF7308 /* LaunchScreen.storyboard in Resources */,
 				5E2F9D1B24C942FA00A1D3C4 /* GoogleService-Info.plist in Resources */,
 				5E65579224C8A94700CF7308 /* Assets.xcassets in Resources */,
-				5EF97EF424D26D050012199B /* ProfileVC.xib in Resources */,
+				5E42D3A124DBAA29000B0854 /* ProfileVC.xib in Resources */,
 				5E341AA324DB59A1003E7D7E /* Notes in Resources */,
 				5E65579024C8A94600CF7308 /* Main.storyboard in Resources */,
 			);
@@ -311,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E42D3A024DBAA29000B0854 /* ProfileVC.swift in Sources */,
 				5E6557A924C8B5C200CF7308 /* RootViewController.swift in Sources */,
 				5E6557A024C8AEB400CF7308 /* LoginViewController.swift in Sources */,
 				5E2F9D1724C914ED00A1D3C4 /* Utilities.swift in Sources */,
@@ -322,7 +323,6 @@
 				5E65578B24C8A94600CF7308 /* SceneDelegate.swift in Sources */,
 				5E6557A224C8AEC500CF7308 /* signupViewController.swift in Sources */,
 				5E6557A424C8AED600CF7308 /* HomeViewController.swift in Sources */,
-				5EF97EF324D26D050012199B /* ProfileVC.swift in Sources */,
 				5EF97EEE24D2237C0012199B /* SWRevealViewController.m in Sources */,
 				5EF97EE624D1ECB20012199B /* GradientView.swift in Sources */,
 				5EF97EF024D2355C0012199B /* ChatViewController.swift in Sources */,
